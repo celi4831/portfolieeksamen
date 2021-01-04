@@ -6,28 +6,6 @@ body {
     background-color: #E2E6D6;
 }
 
-header {
-    background-color: #747160;
-    padding: 15px;
-    margin: auto;
-}
-
-nav a {
-    color: white;
-    text-align: center;
-    position: sticky;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'Nanum Myeongjo', serif;
-
-
-}
-
-/*---MOUSE OVER LINK---*/
-a:hover {
-    text-decoration: underline;
-}
-
 /*----TEXT TYPES---*/
 h1 {
     font-family: 'Nanum Myeongjo', serif;

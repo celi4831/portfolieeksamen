@@ -10,14 +10,20 @@ body {
 h1 {
     font-family: 'Nanum Myeongjo', serif;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h3 {
     font-family: 'Nanum Myeongjo', serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 p {
     font-family: 'Barlow Condensed', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -33,6 +39,10 @@ p {
     justify-content: space-between;
 }
 
+.col0 {
+    text-align: justify;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -42,12 +52,10 @@ p {
 }
 
 /*---MEDIA QUERIES---*/
-/*
 @media (min-width: 800px) {
     #col {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
-*/

@@ -19,3 +19,28 @@ h3 {
 p {
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+
+.section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*---MEDIA QUERIES---*/
+/*
+@media (min-width: 800px) {
+    #col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+*/

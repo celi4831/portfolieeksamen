@@ -2,6 +2,7 @@ body {
     background-color: #E2E6D6;
 }
 
+/*
 .box {
     border: solid #747160;
     margin-top: 50px;
@@ -9,5 +10,112 @@ body {
     width: 400px;
     height: 250px;
     background-color: #747160;
+    font-family: 'Nanum Myeongjo', serif;
+}
+*/
 
+#forside {
+    height: 82.75vh;
+    width: 100%;
+    background-image: url(celina/tegning2.svg);
+    background-size: cover;
+    background-position: 100%;
+    max-width: none;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 82.75vh;
+}
+
+#forside h1 {
+    font-family: 'Tangerine', cursive;
+    margin-top: 6px;
+    padding-left: 30px;
+    font-size: 3rem;
+}
+
+#forside p {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: -35px;
+    padding-left: 70px;
+    font-size: 1.3rem;
+
+}
+
+/*---MEDIA QUERIES---*/
+@media (min-width: 680px) {
+    #forside h1 {
+        padding-top: 50px;
+        padding-left: 35px;
+        font-size: 4.2rem;
+    }
+
+    #forside p {
+        margin-top: -30px;
+        padding-left: 85px;
+        font-size: 1.2rem;
+
+    }
+}
+
+@media (min-width: 820px) {
+    #forside h1 {
+        margin-top: 50px;
+        padding-left: 40px;
+        font-size: 4.5rem;
+    }
+
+    #forside p {
+        margin-top: -35px;
+        padding-left: 90px;
+        font-size: 1.4rem;
+
+    }
+}
+
+@media (min-width: 1000px) {
+    #forside h1 {
+        padding-top: 60px;
+        padding-left: 60px;
+        font-size: 6rem;
+    }
+
+    #forside p {
+        margin-top: -50px;
+        padding-left: 120px;
+        font-size: 1.6rem;
+
+    }
+}
+
+@media (min-width: 1150px) {
+    #forside h1 {
+        padding-top: 60px;
+        padding-left: 90px;
+        font-size: 6rem;
+    }
+
+    #forside p {
+        margin-top: -50px;
+        padding-left: 160px;
+        font-size: 1.6rem;
+
+    }
+}
+
+@media (min-width: 1360px) {
+    #forside h1 {
+        padding-top: 60px;
+        padding-left: 126px;
+        font-size: 6.5rem;
+    }
+
+    #forside p {
+        margin-top: -50px;
+        padding-left: 210px;
+        font-size: 1.8rem;
+
+    }
 }

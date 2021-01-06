@@ -27,6 +27,19 @@ header img {
     width: 150px;
 }
 
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.85rem;
+}
+
 /*---MOUSE OVER LINK---*/
 a:hover {
     text-decoration: underline;
@@ -48,4 +61,43 @@ a:visited {
 /* selected link */
 a:active {
     color: #E2E6D6;
+}
+
+
+/*---MEDIA QUERIES---*/
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+
+    p {
+        font-size: 0.93rem;
+    }
+
+    a {
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 900px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.20rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1.32rem;
+    }
 }

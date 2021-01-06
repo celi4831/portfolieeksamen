@@ -1,3 +1,13 @@
 body {
     background-color: #E2E6D6;
 }
+
+.box {
+    border: solid #747160;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 400px;
+    height: 250px;
+    background-color: #747160;
+
+}

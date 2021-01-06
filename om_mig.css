@@ -27,12 +27,6 @@ p {
 }
 
 
-.section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-
 .col {
     display: flex;
     flex-direction: column;
@@ -57,12 +51,10 @@ main img {
 }
 
 /*---MEDIA QUERIES---*/
-/*
 @media (min-width: 800px) {
-    #col {
+    .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
 }
-*/

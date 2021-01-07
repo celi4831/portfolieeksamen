@@ -1,3 +1,138 @@
 body {
     background-color: #E2E6D6;
 }
+
+.section_wrapper {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/*---MEDIA QUERIES---*/
+@media (min-width: 750px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 100vw;
+    }
+
+    .section_wrapper .emne1 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        max-width: none;
+        position: relative;
+        grid-column: 1/1;
+    }
+
+    .section_wrapper .emne2 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+    .section_wrapper .emne3 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/1;
+
+    }
+
+    .section_wrapper .emne4 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+}
+
+@media (min-width: 550px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 100vw;
+    }
+
+    .section_wrapper .emne1 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        max-width: none;
+        position: relative;
+        grid-column: 1/1;
+    }
+
+    .section_wrapper .emne2 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+    .section_wrapper .emne3 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/1;
+
+    }
+
+    .section_wrapper .emne4 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 60vw;
+    }
+
+    .section_wrapper .emne1 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        max-width: none;
+        position: relative;
+        grid-column: 1/1;
+    }
+
+    .section_wrapper .emne2 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+    .section_wrapper .emne3 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/1;
+
+    }
+
+    .section_wrapper .emne4 {
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        grid-column: 2/2;
+
+    }
+
+}

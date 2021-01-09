@@ -27,3 +27,9 @@ p {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+#first img {
+    width: 400px;
+    height: 100%;
+    padding-left: 50px;
+}

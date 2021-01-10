@@ -10,6 +10,12 @@ body {
     color: #747160;
 }
 
+#first img {
+    width: 400px;
+    height: 100%;
+    padding-left: 50px;
+}
+
 h1 {
     font-family: 'Nanum Myeongjo', serif;
     padding-left: 50px;

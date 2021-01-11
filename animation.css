@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #E2E6D6;
+    /*    background-color: #E2E6D6;*/
+    background-color: white;
 }
 
 #tilbage a {
@@ -26,4 +27,16 @@ p {
     font-family: 'Barlow Condensed', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#link a {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #747160;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
 }

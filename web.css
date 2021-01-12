@@ -3,7 +3,6 @@
 }
 
 body {
-    /*    background-color: #E2E6D6;*/
     background-color: white;
 }
 
@@ -23,8 +22,58 @@ p {
     padding-right: 50px;
 }
 
+/*---LINK TIL RESPONSIVT SITE---*/
+
+.container3 {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 300px;
+}
+
+.text {
+    background-color: #747160;
+    color: white;
+    font-size: 16px;
+    padding: 10px 56px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/*-------------------------------------*/
+.container0 img {
+    padding-left: 50px;
+    height: 100%;
+    width: 563px;
+    padding-bottom: 15px;
+}
+
 .container1 img {
+    padding-left: 50px;
+    height: 100%;
+    width: 563px;
+    padding-bottom: 15px;
+}
+
+.container2 img {
     width: 240px;
     height: 100%;
     padding-left: 50px;
+}
+
+/*---MEDIA QURIES---*/
+
+@media (min-width:850px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    /*
+    .container2 img {
+        width: 258px;
+        height: 93%;
+        padding-left: 50px;
+    }
+*/
 }

@@ -41,6 +41,23 @@ ul {
     padding-right: 112px;
 }
 
+/*---LINK---*/
+
+.container3 {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 300px;
+}
+
+.text {
+    background-color: #747160;
+    color: white;
+    font-size: 16px;
+    padding: 10px 35px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
 /*---MEDIA QURIES---*/
 
 @media (min-width:600px) {

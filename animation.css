@@ -11,12 +11,6 @@ body {
     color: #747160;
 }
 
-#first img {
-    width: 400px;
-    height: 100%;
-    padding-left: 50px;
-}
-
 h1 {
     font-family: 'Nanum Myeongjo', serif;
     padding-left: 50px;
@@ -48,7 +42,7 @@ a:hover {
     padding-left: 50px;
     padding-right: 25px;
     width: 300px;
-    margin-bottom: -10px;
+    margin-top: -20px;
 }
 
 .container2 {
@@ -56,7 +50,7 @@ a:hover {
     padding-left: 50px;
     padding-right: 25px;
     width: 300px;
-    margin-top: -10px;
+    margin-top: -24px;
 }
 
 .text {
@@ -74,18 +68,35 @@ a:hover {
     padding-right: 50px;
 }
 
-.container2 {
+.container3 img {
     position: relative;
+    padding-bottom: 10px;
 }
 
-.container3 {
+.container4 img {
     position: relative;
+    padding-bottom: 10px;
 }
 
-.container4 {
+.container5 img {
     position: relative;
+    height: 100%;
+    width: 300px;
+    padding-bottom: 10px;
 }
 
-.container5 {
-    position: relative;
+/*---MEDIA QURIES---*/
+
+@media (min-width:750px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:850px) {
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

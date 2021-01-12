@@ -3,7 +3,6 @@
 }
 
 body {
-    /*    background-color: #E2E6D6;*/
     background-color: white;
 }
 
@@ -11,9 +10,9 @@ body {
     color: #747160;
 }
 
-.video {
+.video video {
     height: 100%;
-    width: 550px;
+    width: 530px;
     position: relative;
     padding-left: 50px;
     padding-right: 50px;
@@ -34,11 +33,20 @@ p {
 
 /*---LINK TIL REDESIGN---*/
 
+.container0 {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 300px;
+}
+
 .container1 {
     position: relative;
     padding-left: 50px;
     padding-right: 25px;
     width: 300px;
+    margin-bottom: -19px;
+    margin-top: -15px;
 }
 
 .text {
@@ -56,19 +64,19 @@ p {
     padding-right: 50px;
 }
 
-.container2 {
+.container2 img {
     position: relative;
 }
 
-.container3 {
+.container3 img {
     position: relative;
 }
 
-.container4 {
+.container4 img {
     position: relative;
 }
 
-.container5 {
+.container5 img {
     position: relative;
 }
 
@@ -83,6 +91,14 @@ p {
         width: 50px;
         height: 50px;
     }
+
+    .video video {
+        height: 100%;
+        width: 620px;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media (min-width:800px) {
@@ -93,6 +109,14 @@ p {
         width: 50px;
         height: 50px;
     }
+
+    .video video {
+        height: 100%;
+        width: 680px;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media (min-width:1000px) {
@@ -102,5 +126,13 @@ p {
         grid-gap: 48px;
         width: 50px;
         height: 50px;
+    }
+
+    .video video {
+        height: 100%;
+        width: 730px;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }

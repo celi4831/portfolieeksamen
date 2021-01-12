@@ -12,23 +12,15 @@ body {
 }
 
 main img {
-    display: block;
-    width: 325px;
+    display: grid;
+    width: 320px;
     height: 100%;
-    padding-left: 39px;
+    padding-left: 47px;
 }
 
 .section_wrapper {
     padding-left: 0px;
-}
-
-.container1 {
-    position: relative;
-}
-
-.container2 {
-    position: relative;
-    padding-left: 0px;
+    margin: 10px;
 }
 
 h1 {
@@ -46,7 +38,7 @@ p {
 ul {
     font-family: 'Barlow Condensed', sans-serif;
     padding-left: 68px;
-    padding-right: 50px;
+    padding-right: 112px;
 }
 
 /*---MEDIA QURIES---*/

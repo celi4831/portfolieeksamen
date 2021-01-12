@@ -40,3 +40,52 @@ p {
 a:hover {
     text-decoration: underline;
 }
+
+/*---LINK---*/
+
+.container1 {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.container2 {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 300px;
+    margin-top: -10px;
+}
+
+.text {
+    background-color: #747160;
+    color: white;
+    font-size: 16px;
+    padding: 10px 56px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/*---4 BLLEDER---*/
+
+.section_wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container2 {
+    position: relative;
+}
+
+.container3 {
+    position: relative;
+}
+
+.container4 {
+    position: relative;
+}
+
+.container5 {
+    position: relative;
+}

@@ -17,8 +17,7 @@ header {
 nav {
     text-align: right;
     font-family: 'Nanum Myeongjo', serif;
-    margin-top: -35px;
-    padding-bottom: 20px;
+    margin-top: -19px;
     padding-right: 15px;
 }
 
@@ -31,6 +30,7 @@ header img {
     object-fit: cover;
     width: 76px;
     padding-top: 10px;
+    margin-bottom: -34px;
 }
 
 
@@ -70,6 +70,39 @@ a:active {
     color: #E2E6D6;
 }
 
+/*---BURGERMENU---*/
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+#menuknap {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top right;
+}
+
+@media (min-width: 600px) {
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
 
 /*---MEDIA QUERIES---*/
 
